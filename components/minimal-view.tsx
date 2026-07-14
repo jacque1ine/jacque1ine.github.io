@@ -44,8 +44,7 @@ export default function MinimalView({
 
       <p className="mt-4 max-w-prose text-base leading-relaxed text-ink-soft">
         systems design engineering @ university of waterloo, graduating may
-        2027. open to new-grad software engineering roles. i build software,
-        collect places, and always have a camera with me.
+        2027. open to new-grad software engineering roles.
       </p>
 
       <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 font-mono text-xs uppercase tracking-[0.12em]">
