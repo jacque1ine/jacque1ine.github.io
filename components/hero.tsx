@@ -33,15 +33,7 @@ export default function Hero({ imageSrc }: { imageSrc?: string }) {
           </Reveal>
 
           <Reveal delay={180} trigger="load">
-            <p className="mt-8 max-w-[27rem] font-mono text-base leading-[1.75] text-ink-soft">
-              i build software, travel for new places to collect on Beli, and
-              always have a camera with me. this is my field journal: part
-              portfolio, part travel log, part open notebook.
-            </p>
-          </Reveal>
-
-          <Reveal delay={240} trigger="load">
-            <p className="mt-7 flex items-start gap-2.5 font-mono text-sm leading-relaxed text-ink-soft">
+            <p className="mt-8 flex items-start gap-2.5 font-mono text-sm leading-relaxed text-ink-soft">
               <span
                 aria-hidden="true"
                 className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-moss"
