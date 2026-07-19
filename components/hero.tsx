@@ -60,7 +60,7 @@ export default function Hero({ imageSrc }: { imageSrc?: string }) {
               <div className="flex items-center gap-5 font-mono text-xs uppercase tracking-[0.14em] text-ink-faint">
                 {[
                   { label: "github", href: "https://github.com/jacque1ine" },
-                  { label: "linkedin", href: "#" },
+                  { label: "linkedin", href: "https://linkedin.com/in/jacque1ine" },
                   { label: "email", href: "mailto:fungjsl@gmail.com" },
                 ].map((s) => (
                   <a
