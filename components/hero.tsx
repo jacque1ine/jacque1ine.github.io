@@ -15,14 +15,7 @@ export default function Hero({ imageSrc }: { imageSrc?: string }) {
       <div className="mx-auto grid max-w-[1120px] items-center gap-12 px-6 pb-24 pt-16 md:pt-20 lg:min-h-[calc(100svh-4.5rem)] lg:grid-cols-[1.08fr_0.92fr] lg:gap-16 lg:px-10 lg:pb-28">
         {/* ---- Left: the diaristic intro ---- */}
         <div className="relative">
-          <Reveal delay={0} trigger="load">
-            <p className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.22em] text-ink-faint">
-              <span className="h-px w-9 bg-moss" />
-              code · cameras · collecting places
-            </p>
-          </Reveal>
-
-          <Reveal delay={80} as="h1" trigger="load" className="mt-7">
+          <Reveal delay={0} as="h1" trigger="load">
             <span className="block font-display text-4xl leading-[0.9] tracking-[-0.035em]">
               hi, i&rsquo;m
             </span>
