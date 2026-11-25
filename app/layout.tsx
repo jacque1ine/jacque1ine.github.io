@@ -38,6 +38,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      // The inline script below adds `js` to this element before React
+      // hydrates, so the server and client className differ by design.
+      suppressHydrationWarning
       className={`${fraunces.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <head>
